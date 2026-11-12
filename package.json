@@ -1,0 +1,16 @@
+{
+  "name": "giacenze-pellet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Giacenze (Netlify + Netlify Database)",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@netlify/database": "latest"
+  },
+  "devDependencies": {
+    "@netlify/functions": "latest"
+  }
+}

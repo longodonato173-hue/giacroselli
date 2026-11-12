@@ -1,0 +1,11 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+# Attenzione: [[headers]] vale solo per i file statici. Le intestazioni delle risposte API sono impostate nel codice.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    X-Robots-Tag = "noindex"
